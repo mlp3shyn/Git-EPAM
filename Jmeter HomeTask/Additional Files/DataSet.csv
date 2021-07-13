@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: unknown protocol: ${protocol},RecordTestPlan 1-1,text,false,,832,0,1,1,null,0,0,0
+0,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: unknown protocol: ${protocol},RecordTestPlan 1-1,text,false,,832,0,1,1,null,0,0,0
+1626215902545,0,HTTP Request,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 7: http:/${referenceResult},RecordTestPlan 1-1,text,false,,1110,0,1,1,http:/${referenceResult},0,0,0
+1626215955301,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,RecordTestPlan 1-1,text,false,,1110,0,1,1,http:/,0,0,0
+1626215971399,0,HTTP Request,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/,RecordTestPlan 1-1,text,false,,1110,0,1,1,http:/,0,0,0
+1626216050380,0,HTTP Link,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/null,RecordTestPlan 1-1,text,false,,1114,0,1,1,http:/null,0,0,0
+1626216099990,2245,HTTP Link,404,Not Found,RecordTestPlan 1-1,text,false,,19362,268,1,1,https://demo.nopcommerce.com/page-not-found,997,0,0
+1626216099990,997,HTTP Link-0,302,Found,RecordTestPlan 1-1,,true,,1420,129,1,1,https://demo.nopcommerce.com/null,997,0,0
+1626216100988,1247,HTTP Link-1,404,Not Found,RecordTestPlan 1-1,text,false,,17942,139,1,1,https://demo.nopcommerce.com/page-not-found,1246,0,0
