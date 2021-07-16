@@ -1,0 +1,5 @@
+RUN	mp3shyn.Temp	temp	1626424283303	 	3.6.1
+USER	Temp	START	1626424284829
+REQUEST		Open main page	1626424284890	1626424285817	KO	css((input[id='challenger[step_id]'],Some(value))).find.exists, found nothing
+REQUEST		Start quiz	1626424286021	1626424286270	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 422
+USER	Temp	END	1626424286282

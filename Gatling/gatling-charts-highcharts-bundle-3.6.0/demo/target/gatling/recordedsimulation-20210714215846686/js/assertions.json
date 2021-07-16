@@ -1,0 +1,10 @@
+{
+  "simulation": "mp3shyn.RecordedSimulation",
+  "simulationId": "recordedsimulation",
+  "start": 1626299926686,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

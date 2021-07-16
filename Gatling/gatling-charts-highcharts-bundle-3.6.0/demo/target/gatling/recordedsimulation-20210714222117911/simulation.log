@@ -1,0 +1,13 @@
+RUN	mp3shyn.RecordedSimulation	recordedsimulation	1626301277911	 	3.6.1
+USER	RecordedSimulation	START	1626301279371
+REQUEST		Open main page	1626301279430	1626301280340	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1626301280502	1626301280693	OK	 
+REQUEST		application-83a5b9f2e1580179c228e00b1276d04c.css	1626301280506	1626301280946	OK	 
+REQUEST		tricentis-flood-a1e7e4fbfe3e638b8f61b1ab4460671b.png	1626301280510	1626301281394	OK	 
+REQUEST		application-5e48982641645e9e430e258fb10a8f85.js	1626301280508	1626301282005	OK	 
+ERROR	Start quiz: Failed to build request: No attribute named 'authenticity_token' is defined 	1626301282014
+ERROR	Step 2 -> Select years: Failed to build request: No attribute named 'authenticity_token' is defined 	1626301282016
+ERROR	Step 3 -> Select the biggest value: Failed to build request: No attribute named 'authenticity_token' is defined 	1626301282016
+ERROR	Step 4: Failed to build request: No attribute named 'authenticity_token' is defined 	1626301282017
+ERROR	Step 5 -> Enter token: Failed to build request: No attribute named 'authenticity_token' is defined 	1626301282018
+USER	RecordedSimulation	END	1626301282023
